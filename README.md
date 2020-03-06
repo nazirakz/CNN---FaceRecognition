@@ -1,11 +1,6 @@
 # CNNFaceRecognition
 Built a CNN Model which recognizes people in videos.
 
-The video-based Datased used is private and cannot be uploaded.
-
-# VideoProcessing
-Videos have been processed in Video Stream.ipynb and person33.ipynb (person33 required a different approach to be identified). Two haarcascade xml files were used to detect faces in each frame, the first one to actually detect them, the second to discard which one was not a face.
-
 # Folders structure
 All the videos used contained 7 subjects. For each video we extracted the face of each subject in a folder named with the selected subject's unique id. This was done for labeling purposes.
 
